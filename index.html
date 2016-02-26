@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>GitLinks</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+
+    <!-- import stuff for twenty twenty to work-->
+    <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.event.move.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen"/>
+
+    <!-- import material design-->
+    <!--<link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">-->
+    <!--<script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head><!--/head-->
+
+<body>
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 overflow">
+                <div class="social-icons pull-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <h1><img src="images/logo3.png" alt="logo"></h1>
+                </a>
+
+            </div>
+            <div class="collapse navbar-collapse">
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<!--/#header-->
+
+<section id="home-slider">
+    <div class="container">
+        <script>
+            $(function () {
+                $(".element").typed({
+                    strings: ["java date-picker", "frontend framework with permissive license", "graph database with apache 2 license"],
+                    typeSpeed: 0.,
+                    contentType: 'text', // or 'text'
+                    backDelay: 1500
+                });
+            });
+        </script>
+
+            <div class="typedFlex">
+                <div class="jumbotron">
+                    <h2 class="element"></h2>
+                    <!--<span class="typed-cursor">|</span>-->
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-search"></span>
+                </div>
+            </div>
+
+            <div class="main-slider">
+                <div class="slide-text">
+                    <h1>Trying to find the best open source software?</h1>
+                    <p>We're building the world's first comprehensive open source search engine.</p>
+                    <a href="#clients" class="btn btn-common">Watch Video</a>
+                    <a href="#footer" class="btn btn-common">Try It</a>
+
+                </div>
+                <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+            </div>
+
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+<!--/#home-slider-->
+<section id="clients">
+    <div class="text-center wow fadeInUp">
+        <div class="row">
+            <div class="clients" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div data-content="GitLinks baby! GitLinks baby!" class="image">
+                    <span class="wistia_embed wistia_async_a9lypx2iao popover=true popoverContent=link OverlayIcon">
+                        <a href="#">
+                            <img class="OverlayIcon" src="images/home/play_button.png"/>
+                        </a>
+                    </span>
+                    <img src="images/home/video_background.png" class="img-responsive"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--/#clients-->
+
+
+<section id="services" style="padding-bottom: 50px;">
+    <div class="container">
+
+        <div class="wrapper">
+            <article class="main">
+                <div id="container1" class='twentytwenty-container'>
+                    <!-- The before image is first -->
+                    <img src="images/home/searchresults.jpg">
+                    <!-- The after image is last -->
+                    <img src="images/home/searchresults.jpg">
+                </div>
+            </article>
+
+            <script>
+                $(window).load(function () {
+                    $("#container1").twentytwenty();
+                });
+            </script>
+            <aside class="aside aside-1">
+                <p style="font-weight: bold;">Without GitLinks</p>
+                <p>- Manual process</p>
+                <p>- Googling</p>
+                <p>- Reading forums & reviews</p>
+                <p>- Exploring Github</p>
+                <p>- Talking to friends</p>
+            </aside>
+            <aside class="aside aside-2">
+                <p style="font-weight: bold;"> With GitLinks</p>
+                <p>- Automated reliability score</p>
+                <p>- Strength of Community</p>
+                <p>- Financial backing</p>
+                <p>- Distribution of contributors</p>
+                <p>- License types</p>
+                <p>- Security risks</p>
+            </aside>
+        </div>
+
+        <div class="row">
+
+
+        </div>
+    </div>
+</section>
+<!--/#services-->
+
+<section id="action" class="responsive">
+    <div class="vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="action take-tour">
+                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title">Interested?</h1>
+                        <p>Take a look behind the scenes.</p>
+                    </div>
+                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="tour-button">
+                            <a href="https://mygitlinks.firebaseapp.com/" target="_blank" class="btn btn-common">GET A
+                                SNEAK PEEK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/#action-->
+
+<section id="features">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+<!--/#features-->
+
+
+<footer id="footer" style="margin-top: 30px;">
+    <div class="container">
+        <div class="row">
+            <section id="fh5co-newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+                            <h2 class="fh5co-uppercase-heading-sm fh5co-no-margin-bottom">We'll Be In Touch</h2>
+                            <div class="fh5co-spacer fh5co-spacer-xxs"></div>
+                            <form method="post" action="#">
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">Email address</label>
+                                    <input type="email" class="form-control input-lg" id="email" placeholder="Email">
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-lg btn-block"
+                                       value="LET ME KNOW WHEN IT'S READY">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="col-sm-12">
+                <div class="copyright-text text-center">
+                    <p>Email us <a target="_blank" href="mailto:team@gitlinks.io">team@gitlinks.io</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/#footer-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+
+</body>
+</html>
