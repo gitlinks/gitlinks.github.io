@@ -720,21 +720,21 @@ ul.sub-menu {
     margin-bottom: 15px;
 }
 
-#clients {
+#gitVid {
     padding-bottom: 45px;
 }
 
-.clients {
+.gitVid {
     margin-bottom: 45px;
     overflow: hidden;
 
 }
 
-.clients img {
+.gitVid img {
     display: inline-block;
 }
 
-.clients-logo {
+.gitVid-logo {
     overflow: hidden;
     margin-bottom: 10px;
 }
@@ -2767,7 +2767,7 @@ span.stButton_gradient,
 ******* twenty/twenty *****
 **************************/
 .wrapper {
-    display: flex;
+    /*display: flex;*/
     flex-flow: row wrap;
 }
 
@@ -2843,11 +2843,13 @@ span.stButton_gradient,
 }
 
 .aside-1 {
-    text-align: left;
+    text-align: right;
+    font-size: 16px;
 }
 
 .aside-2 {
     text-align: left;
+    font-size: 16px;
 }
 
 @media all and (min-width: 600px) {
@@ -2925,7 +2927,9 @@ span.stButton_gradient,
     }
 }
 
+/*********************************/
 /******** homepage inputbox ******/
+/*********************************/
 .jumbotron {
     border-style: solid;
     border-radius: 0px;
@@ -2947,10 +2951,8 @@ span.stButton_gradient,
     align-items: center;
 }
 
-
 .glyphicon {
     color: #414b56;
     font-size: 50px;
     align-self: flex-end;
 }
-
