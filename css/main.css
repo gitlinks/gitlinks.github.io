@@ -537,7 +537,9 @@ ul.sub-menu {
 
 #home-slider .main-slider {
     position: relative;
-    height: 450px;
+    /*height: 450px;*/
+    min-height: 400px;
+    height: 100%;
 }
 
 #home-slider .slide-text {
@@ -589,7 +591,8 @@ ul.sub-menu {
 #home-slider .slider-birds1 {
     position: absolute;
     right: 470px;
-    bottom: 75px;
+    /*bottom: 75px;*/
+    bottom: 50px;
 }
 
 .animate-in .slider-birds1 {
@@ -600,7 +603,8 @@ ul.sub-menu {
 #home-slider .slider-birds2 {
     position: absolute;
     right: 40px;
-    bottom: 150px;
+    /*bottom: 150px;*/
+    bottom: 100px;
 }
 
 .animate-in .slider-birds2 {
@@ -632,7 +636,7 @@ ul.sub-menu {
     font-size: 48px;
     height: 48px;
     line-height: 48px;
-    color: #00aeef;
+    color: #d84b5f;
     position: absolute;
     left: 50%;
     margin-left: -24px;
@@ -2928,7 +2932,7 @@ span.stButton_gradient,
 }
 
 /*********************************/
-/******** homepage inputbox ******/
+/******** homepage typing animation ******/
 /*********************************/
 .jumbotron {
     border-style: solid;
@@ -2955,4 +2959,11 @@ span.stButton_gradient,
     color: #414b56;
     font-size: 50px;
     align-self: flex-end;
+}
+
+/*****************************/
+#fullSize{
+    height:100%;
+    width:100%;
+    overflow:hidden; /* or overflow:auto; if you want scrollbars */
 }
