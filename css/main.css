@@ -532,6 +532,7 @@ ul.sub-menu {
 
 .copyright-text a {
     color: #4d394b;
+    font-weight: bold;
 }
 
 .copyright-text p {
@@ -2805,6 +2806,9 @@ span.stButton_gradient,
     .aside {
         flex: 1 auto;
     }
+    .main {
+        flex: 1 700px;
+    }
 }
 
 /* Large screens */
@@ -2813,7 +2817,7 @@ span.stButton_gradient,
      * And tell the main element to take twice as much width as the other two sidebars
      */
     .main {
-        flex: 3 0px;
+        flex: 1 700px;
     }
 
     .aside-1 {
@@ -2873,7 +2877,7 @@ span.stButton_gradient,
 
 @media all and (min-width: 800px) {
     .main {
-        flex: 7 0px;
+        flex: 1 600px;
     }
 
     .aside-1 {
