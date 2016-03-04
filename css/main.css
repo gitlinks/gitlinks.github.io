@@ -2979,13 +2979,3 @@ span.stButton_gradient,
     width:100%;
     overflow:hidden; /* or overflow:auto; if you want scrollbars */
 }
-
-
-#action {
-    border-style: solid;
-    border-width: 1px;
-    border-right: transparent;
-    border-left: transparent;
-    border-color: #019288;
-    border-bottom-width: 1px;
-}
