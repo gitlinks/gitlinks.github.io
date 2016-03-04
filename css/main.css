@@ -657,7 +657,7 @@ ul.sub-menu {
 }
 
 #action {
-    background-image: url(../images/home/tour-bg.png);
+    background-image: url(../images/home/gears.png);
     background-color: #fbfafa;
     background-repeat: repeat-x;
     height: 157px;
@@ -765,7 +765,7 @@ ul.sub-menu {
 }
 
 #page-breadcrumb {
-    background-image: url(../images/home/tour-bg.png);
+    background-image: url(../images/home/gears.png);
     background-color: #fbfafa;
     background-repeat: repeat-x;
     height: 130px;
@@ -2337,7 +2337,7 @@ span.stButton_gradient,
 }
 
 .bg-404 {
-    background-image: url("../images/home/tour-bg.png");
+    background-image: url("../images/home/gears.png");
     background-repeat: repeat-x;
     background-position: center top;
 }
