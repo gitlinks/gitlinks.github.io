@@ -32,56 +32,63 @@
 </head><!--/head-->
 
 <div class="fullSize">
-<header id="header">
-    <div class="navbar navbar-inverse" role="banner">
+    <header id="header">
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <h1><img src="images/logo3.png" alt="logo"></h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                    <h1><img src="images/logo3.png" alt="logo"></h1>
-                </a>
-            </div>
-        </div>
-    </div>
-</header>
-<!--/#header-->
-
-<section id="home-slider">
-    <div class="container">
-        <script>
-            $(function () {
-                $(".element").typed({
-                    strings: ["java date-picker", "frontend framework with permissive license", "graph database with apache 2 license"],
-                    typeSpeed: 0.,
-                    contentType: 'text', // or 'text'
-                    backDelay: 1500
+            <script>
+                $(function () {
+                    $(".element").typed({
+                        strings: ["java date-picker", "frontend framework with permissive license", "graph database with apache 2 license"],
+                        typeSpeed: 0.,
+                        contentType: 'text', // or 'text'
+                        backDelay: 1500
+                    });
                 });
-            });
-        </script>
-        <div class="typedFlex">
-            <div class="jumbotron">
-                <h2 class="element"></h2>
-                <!--<span class="typed-cursor">|</span>-->
+            </script>
+            <div class="typedFlex">
+                <div class="jumbotron">
+                    <h2 class="element"></h2>
+                    <!--<span class="typed-cursor">|</span>-->
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-search"></span>
+                </div>
             </div>
-            <div>
-                <span class="glyphicon glyphicon-search"></span>
-            </div>
-        </div>
 
-        <div class="main-slider">
-            <div class="slide-text">
-                <h1>Trying to find the best open source software?</h1>
-                <h3>We're building the world's first comprehensive open source search engine.</h3>
-                <!-- Accent-colored raised button with ripple -->
-                <a href="#gitVid"><button class="mdl-button mdl-button--raised mdl-button--accent" style="color: #4d394b; border-color: #4d394b; border-width: 2px; border-style: solid; background-color: transparent;">Watch Video</button></a>
-                <a href="#footer"><button class="mdl-button mdl-button--raised mdl-button--accent">Try It</button></a>
+            <div class="main-slider">
+                <div class="slide-text">
+                    <h1>Trying to find the best open source software?</h1>
+                    <h3>We're building the world's first comprehensive open source search engine.</h3>
+                    <!-- Accent-colored raised button with ripple -->
+                    <a href="#gitVid">
+                        <button class="mdl-button mdl-button--raised mdl-button--accent"
+                                style="color: #4d394b; border-color: #4d394b; border-width: 2px; border-style: solid; background-color: transparent;">
+                            Watch Video
+                        </button>
+                    </a>
+                    <a href="#footer">
+                        <button class="mdl-button mdl-button--raised mdl-button--accent">Try It</button>
+                    </a>
+                </div>
+                <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
             </div>
-            <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-            <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
         </div>
-    </div>
-    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-</section>
-<!--/#home-slider-->
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
 </div>
 
 <section id="gitVid">
@@ -156,8 +163,13 @@
                     </div>
                     <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <div class="tour-button">
-                            <a href="http://alpha.gitlinks.com/" target="_blank" class="btn" style="margin-top: 30px; float: left;">
-                                <button class="mdl-button mdl-button--raised mdl-button--accent" style="color: #d7223b; border-color: #d7223b; border-width: 2px; border-style: solid; background-color: transparent;">GET A SNEAK PEEK</button></a>
+                            <a href="http://alpha.gitlinks.com/" target="_blank" class="btn"
+                               style="margin-top: 30px; float: left;">
+                                <button class="mdl-button mdl-button--raised mdl-button--accent"
+                                        style="color: #d7223b; border-color: #d7223b; border-width: 2px; border-style: solid; background-color: transparent;">
+                                    GET A SNEAK PEEK
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +205,8 @@
                                     <input type="email" class="form-control input-lg" name="MERGE0" id="email"
                                            placeholder="Email">
                                 </div>
-                                <input type="submit" class="mdl-button mdl-button--raised mdl-button--accent" style=" display: block; width: 100%;" value="LET ME KNOW WHEN IT'S READY">
+                                <input type="submit" class="mdl-button mdl-button--raised mdl-button--accent"
+                                       style=" display: block; width: 100%;" value="LET ME KNOW WHEN IT'S READY">
                             </form>
                         </div>
                     </div>
@@ -223,11 +236,11 @@
 
 <!-- smooth scrolling between sections -->
 <script>
-    $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    $(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
                     $('html, body').animate({
                         scrollTop: target.offset().top

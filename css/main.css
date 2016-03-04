@@ -2974,7 +2974,7 @@ span.stButton_gradient,
     align-self: flex-end;
 }
 /*****************************/
-#fullSize{
+.fullSize{
     height:100vh;
     width:100%;
     overflow:hidden; /* or overflow:auto; if you want scrollbars */
