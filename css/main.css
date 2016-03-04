@@ -78,11 +78,22 @@ h3 {
     text-transform: uppercase;
 }
 
+/*********************************/
+/******** material button ********/
+/*********************************/
+.mdl-button--accent.mdl-button--accent.mdl-button--fab, .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    color: rgb(255, 255, 255);
+    background-color: #d7223b;
+}
+
+#home-slider .mdl-button--accent.mdl-button--accent.mdl-button--fab, .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    margin-top: 20px;
+}
+
+/*********************************/
 .btn-common {
     font-size: 14px;
-    /*color: #0099ae;*/
     color: #d7223b;
-    /*border: 1px solid #0099ae;*/
     border: 1px solid #d7223b;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -520,7 +531,7 @@ ul.sub-menu {
 }
 
 .copyright-text a {
-    color: #d7223b;
+    color: #4d394b;
 }
 
 .copyright-text p {
@@ -528,7 +539,7 @@ ul.sub-menu {
 }
 
 /*************************
-*******Home Page******
+******* Home Page ********
 **************************/
 #home-slider {
     /*background: url(../images/home/slider-bg.png) 0 100% repeat-x;*/
@@ -781,7 +792,6 @@ ul.sub-menu {
 }
 
 .tour-button {
-    /*background-image: url(../images/home/tour-icon2.png);*/
     height: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -2615,7 +2625,7 @@ span.stButton_gradient,
     background-color: transparent;
     height: 52px;
     color: #fff;
-    border: 2px solid #00aeef;
+    border: 2px solid #019288;
 }
 
 #newsletter {
@@ -2803,7 +2813,7 @@ span.stButton_gradient,
      * And tell the main element to take twice as much width as the other two sidebars
      */
     .main {
-        flex: 2 0px;
+        flex: 3 0px;
     }
 
     .aside-1 {
@@ -2833,7 +2843,6 @@ span.stButton_gradient,
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
 
-    /*font-weight: bold;*/
     text-align: center;
 }
 
@@ -2932,7 +2941,7 @@ span.stButton_gradient,
 }
 
 /*********************************/
-/******** homepage typing animation ******/
+/**** homepage typing animation **/
 /*********************************/
 .jumbotron {
     border-style: solid;
@@ -2960,10 +2969,19 @@ span.stButton_gradient,
     font-size: 50px;
     align-self: flex-end;
 }
-
 /*****************************/
 #fullSize{
     height:100%;
     width:100%;
     overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
+
+
+#action {
+    border-style: solid;
+    border-width: 1px;
+    border-right: transparent;
+    border-left: transparent;
+    border-color: #019288;
+    border-bottom-width: 1px;
 }
