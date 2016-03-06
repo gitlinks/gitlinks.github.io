@@ -3016,5 +3016,8 @@ span.stButton_gradient,
         margin-top: 10%;
     }
 
+    #footer {
+        background: none;
+    }
 
 }

@@ -4390,7 +4390,9 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 @media (min-width: 768px) {
     .navbar-header {
-        float: left
+        /*float: left*/
+        margin: auto;
+        clear: both;
     }
 }
 
@@ -4491,7 +4493,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-brand {
-    float: left;
+    /*float: left;*/
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
