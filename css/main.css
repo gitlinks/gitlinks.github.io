@@ -394,9 +394,7 @@ ul.sub-menu {
 
 #footer {
     padding-bottom: 10px;
-    /*background-image: url(../images/home/footer.png);*/
     background: url(../images/home/slider-bg.png) 0 100% repeat-x;
-
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: contain;
@@ -543,7 +541,6 @@ ul.sub-menu {
 ******* Home Page ********
 **************************/
 #home-slider {
-    /*background: url(../images/home/slider-bg.png) 0 100% repeat-x;*/
     position: relative;
 }
 
@@ -801,6 +798,11 @@ ul.sub-menu {
     background-position: 151px 4px;
 }
 
+.btnFloat {
+    /*float: left;*/
+    margin-top: 30px;
+}
+
 .about-image {
     padding: 90px 90px 0;
 }
@@ -900,16 +902,6 @@ ul.sub-menu {
     -ms-transition: all 0.9s ease;
     -o-transition: all 0.9s ease;
     transition: all 0.9s ease;
-}
-
-.right.team-carousel-control {
-    right: -50px;
-    background-image: url(../images/aboutus/right.png);
-}
-
-.left.team-carousel-control {
-    left: -50px;
-    background-image: url(../images/aboutus/left.png);
 }
 
 .team-carousel-control:hover {
@@ -2978,4 +2970,51 @@ span.stButton_gradient,
     height:100vh;
     width:100%;
     overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
+
+/*********** Mobile *************/
+/********************************/
+/* Small */
+@media (max-width: 600px) {
+
+    .element{
+        display: inline;
+        font-size: 14px;
+    }
+
+    .jumbotron {
+        padding: 2px 0px;
+    }
+
+    .glyphicon {
+        font-size: 24px;
+    }
+
+    #home-slider .slide-text {
+        margin-top: 26px;
+    }
+
+    .slider-birds1 {
+        visibility: hidden;
+    }
+
+    .slider-birds2 {
+        visibility: hidden;
+    }
+
+    .image:after {
+        content: '\A';
+    }
+
+    .btnFloat {
+        clear: both;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .action h1 {
+        margin-top: 10%;
+    }
+
+
 }
