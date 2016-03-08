@@ -35,6 +35,7 @@
 .mdl-button {
     background: 0 0;
     border: none;
+    border-radius: 3px;
     color: #000;
     position: relative;
     height: 46px;
