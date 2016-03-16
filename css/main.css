@@ -18,6 +18,7 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #000;
+    overflow-x: hidden;
 }
 
 html {
@@ -71,7 +72,7 @@ h3 {
 }
 
 .overflow {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .uppercase {
@@ -739,8 +740,7 @@ ul.sub-menu {
 
 .gitVid {
     margin-bottom: 45px;
-    overflow: hidden;
-
+    /*overflow: hidden;*/
 }
 
 .gitVid img {
@@ -748,7 +748,7 @@ ul.sub-menu {
 }
 
 .gitVid-logo {
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-bottom: 10px;
 }
 
@@ -2525,7 +2525,7 @@ span.stButton_gradient,
 }
 
 #coming-soon {
-    background-image: url("../images/coming-soon-bg.png");
+    /*background-image: url("../images/coming-soon-bg.png");*/
     background-position: center top;
     background-repeat: repeat-x;
     padding: 40px 0;
@@ -2713,7 +2713,7 @@ span.stButton_gradient,
 }
 
 /*************************
-** Video / overlay  **
+**** Video / overlay  ****
 **************************/
 .videoBack {
     width: 100%;
@@ -2744,13 +2744,12 @@ span.stButton_gradient,
     opacity: 0;
     transition: all 1s;
     -webkit-transition: all 1s;
-
     color: #fff;
     z-index: 1;
     bottom: 0;
     padding-top: 22.5%;
     text-align: center;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     font-size: 20px;
 }
@@ -2901,6 +2900,7 @@ span.stButton_gradient,
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: 30px;
+    color: #d2d6d9;
 }
 
 @keyframes blink {
@@ -2943,13 +2943,14 @@ span.stButton_gradient,
 /**** homepage typing animation **/
 /*********************************/
 .jumbotron {
-    border-style: solid;
+    border-bottom-style: solid;
     border-radius: 0px;
-    border-width: 0.5px;
+    border-width: 2px;
     background-color: transparent;
-    color: #d2d6d9;
+    /*color: #d2d6d9;*/
+    color: #d7223b;
     width: 600px;
-    padding: 20px 0px;
+    padding: 1px 0px;
     margin: 0;
 }
 
@@ -2965,8 +2966,9 @@ span.stButton_gradient,
 
 .glyphicon {
     color: #414b56;
-    font-size: 50px;
+    font-size: 40px;
     align-self: flex-end;
+    line-height: 0;
 }
 /*****************************/
 /*.fullSize{*/
@@ -2997,16 +2999,13 @@ span.stButton_gradient,
         margin-top: 26px;
     }
 
-    .slider-birds1 {
-        visibility: hidden;
-    }
-
-    .slider-birds2 {
-        visibility: hidden;
-    }
-
     .image:after {
         content: '\A';
+    }
+
+    .aside-1 {
+        text-align: left;
+        font-size: 16px;
     }
 
     .btnFloat {
