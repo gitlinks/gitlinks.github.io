@@ -987,16 +987,16 @@ h3.top-zero {
 
     #header {
         margin: 0;
-        padding: 0px 0px 0px 0px;
+        padding: 0 0 0 0;
     }
 
-    .navbar-header {
-        /*display: inline-block;*/
+    .typedFlex {
+        padding-top: 50px;
     }
 
     .element{
         display: inline;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .jumbotron {
