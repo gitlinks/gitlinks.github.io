@@ -12,6 +12,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/mdl-button.css" rel="stylesheet">
+    <link href="css/mdl-header.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -29,68 +30,66 @@
     <!-- import jQuery-->
     <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
 
-</head><!--/head-->
+</head>
 
-<!--body-->
 <body>
-<div class="fullSize">
+<section id="home-slider">
     <header id="header">
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="images/logo3.png" alt="logo"></h1>
+        <div class="navbar" role="banner">
+            <div class="navbar-header">
+                <div style="flex-grow: 1; align-self: center;">
+                    <a href="index.html">
+                        <img src="images/big_logo.png" alt="logo" class="headerLogo">
+                    </a>
+                </div>
+                <div class="subscribe-header"">
+                    <a href="#footer">
+                        <button class="mdl-button mdl-button--raised mdl-button--accent" style="margin: 0px;">
+                            Subscribe
+                        </button>
                     </a>
                 </div>
             </div>
         </div>
     </header>
-    <!--/#header-->
 
-    <section id="home-slider">
-        <div class="container">
-            <script>
-                $(function () {
-                    $(".element").typed({
-                        strings: ["java date-picker", "simple frontend framework for python", "graph database with apache 2 license", "javascript library for hand tracking", "twitter LDA", "image loader for torch", "scala database", "python NLP"],
-                        typeSpeed: 0.,
-                        contentType: 'text', // or 'text'
-                        backDelay: 1500,
-                        loop: true,
-                        loopCount: false
-                    });
-                });
-            </script>
-            <div class="typedFlex">
-                <div class="jumbotron">
-                    <h2 class="element"></h2>
-                </div>
-                <div>
-                    <span class="glyphicon glyphicon-search"></span>
-                </div>
-            </div>
+    <script>
+        $(function () {
+            $(".element").typed({
+                strings: ["java date-picker", "simple frontend framework for python", "graph database with apache 2 license", "javascript library for hand tracking", "twitter LDA", "image loader for torch", "scala database", "python NLP"],
+                typeSpeed: 0.,
+                contentType: 'text', // or 'text'
+                backDelay: 1500,
+                loop: true,
+                loopCount: false
+            });
+        });
+    </script>
+    <div class="typedFlex">
+        <div class="jumbotron">
+            <h2 class="element"></h2>
+        </div>
+        <div>
+            <span class="glyphicon glyphicon-search"></span>
+        </div>
+    </div>
 
-            <div class="main-slider">
-                <div class="slide-text">
-                    <h1>A smart search engine to find trusty open source software.</h1>
-                    <h3>We index over 40 million projects, calculate a trust score & rank them by relevance.</h3>
-                    <!-- Accent-colored raised button with ripple -->
-                    <a href="#gitVid">
-                        <button class="mdl-button mdl-button--raised mdl-button--accent"
-                                style="color: #4d394b; border-color: #4d394b; border-width: 2px; border-style: solid; background-color: transparent;">
-                            Watch Video
-                        </button>
-                    </a>
-                    <a href="#footer">
-                        <button class="mdl-button mdl-button--raised mdl-button--accent">Subscribe</button>
-                    </a>
-                </div>
+    <div class="container">
+        <div class="main-slider">
+            <div class="slide-text">
+                <h1>A smart search engine to find trusty open source software.</h1>
+                <h3>We index over 40 million projects, calculate a trust score & rank them by relevance.</h3>
+                <a href="#gitVid">
+                    <button class="mdl-button mdl-button--raised mdl-button--accent"
+                            style="color: #d7223b; border-color: #d7223b; border-width: 2px; border-style: solid; background-color: transparent;">
+                        Watch Video
+                    </button>
+                </a>
             </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
-    <!--/#home-slider-->
-</div>
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
 
 <section id="gitVid">
     <div class="text-center wow fadeInUp">
@@ -162,7 +161,8 @@
                         <h1 class="title">Interested?</h1>
                         <h3>Take a look behind the scenes.</h3>
                     </div>
-                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms"
+                         data-wow-delay="300ms">
                         <div class="tour-button">
                             <a href="http://alpha.gitlinks.com/" target="_blank" class="btn btnFloat">
                                 <button class="mdl-button mdl-button--raised mdl-button--accent"
