@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the best open source software to use for your projects. The GitLinks Trust Score factors in community support, security, backing, and popularity.">
+    <meta name="description"
+          content="Discover the best open source software to use for your projects. The GitLinks Trust Score factors in community support, security, backing, and popularity.">
     <meta name="keywords" content="open source, trust, search, find, github, reliability, quality, community">
     <title>GitLinks - Scoring engine for open source software.</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,21 +42,22 @@
                         <img src="images/big_logo.png" alt="GitLinks logo" class="headerLogo">
                     </a>
                 </div>
-                <div class="subscribe-header"">
-                    <a href="#footer">
-                        <button class="mdl-button mdl-button--raised mdl-button--accent" style="margin: 0px;">
-                            Subscribe
-                        </button>
-                    </a>
-                </div>
+                <div class="subscribe-header"
+                ">
+                <a href="#footer">
+                    <button class="mdl-button mdl-button--raised mdl-button--accent" style="margin: 0px;">
+                        Subscribe
+                    </button>
+                </a>
             </div>
+        </div>
         </div>
     </header>
 
     <script>
         $(function () {
             $(".element").typed({
-                strings: ["java date-picker", "simple frontend framework for python", "graph database with apache 2 license", "javascript library for hand tracking", "twitter LDA", "image loader for torch", "scala database", "python NLP"],
+                strings: ["scala database", "python NLP", "simple frontend framework for python", "graph database with apache 2 license", "javascript library for hand tracking", "twitter LDA", "image loader for torch"],
                 typeSpeed: 0.,
                 contentType: 'text', // or 'text'
                 backDelay: 1500,
@@ -76,8 +78,14 @@
     <div class="container">
         <div class="main-slider">
             <div class="slide-text">
-                <h1>A scoring engine to find trusty open source software.</h1>
-                <h3>We create confidence in using open source software, by calculating a reliability score based on over 30 data points.</h3>
+                <h1>We create confidence in using open source software.</h1>
+                <h3>GitLinks is a scoring engine for open source software. We calculate a Trust Score based on over 30 data
+                    points.
+                </h3>
+                <h3>
+                    Our Gitlinks Trust Score is a number between 1 and 10 that represents how trustworthy a piece of
+                    software is.
+                </h3>
                 <a href="#gitVid">
                     <button class="mdl-button mdl-button--raised mdl-button--accent"
                             style="color: #d7223b; border-color: #d7223b; border-width: 2px; border-style: solid; background-color: transparent;">
@@ -124,7 +132,7 @@
                     <!-- The before image is first -->
                     <img src="images/home/before.png">
                     <!-- The after image is last -->
-                    <img src="images/home/after.jpg">
+                    <img src="images/home/after_angular.png">
                 </div>
             </article>
 
@@ -140,9 +148,9 @@
                 <h2 style="font-weight: bold;">With GitLinks</h2>
                 <span style="color: #d84b5f; font-weight: bold">- </span> Trust score calculated by:<br><br>
                 <span style="color: #d84b5f; font-weight: bold">- </span> Strength of Community<br><br>
+                <span style="color: #d84b5f; font-weight: bold">- </span> Security risks<br><br>
                 <span style="color: #d84b5f; font-weight: bold">- </span> Financial backing<br><br>
                 <span style="color: #d84b5f; font-weight: bold">- </span> Distribution of contributors<br><br>
-                <span style="color: #d84b5f; font-weight: bold">- </span> Security risks<br><br>
             </aside>
         </div>
         <div class="row">
@@ -254,10 +262,17 @@
 
 <!-- Google Analytics -->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-76724546-1', 'auto');
     ga('send', 'pageview');
