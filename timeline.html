@@ -35,7 +35,6 @@
     .videoContainer {
         position: relative;
         width: 100%;
-        height: 100%;
         border-radius: 5px;
         background-attachment: scroll;
         overflow: hidden;
@@ -53,8 +52,8 @@
         height: 100%;
         width: 100%;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
         z-index: 2;
         background: #212132;
         opacity: 0.85;
@@ -71,14 +70,14 @@
         font-size: 4rem;
         transform: translate(-50%, -50%);
     }
-    img.myBg{
-        width:100%;
-        height:100%;
-        position:absolute;
-        z-index:-1;
+
+    img.myBg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
     }
 </style>
-
 
 <div class="videoContainer">
     <img class='myBg' src="images/home/video_background.png" alt=""/>
@@ -93,34 +92,25 @@
 
 </div>
 
-
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-md-12">-->
-<!--<h1>www.viewlike.us</h1>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-
 <section id="cd-timeline" class="cd-container">
     <!-- card 3 -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture">
-            <img src="images/timeline/cd-icon-picture.svg" alt="Location">
-        </div> <!-- cd-timeline-img -->
+            <i class="material-icons md-light">attach_money</i>
+        </div>
         <div class="cd-timeline-content">
             <h2>GitLinks gets pre-seed funding</h2>
             <p>We received a pre-seed investment from Cornell Tech by winning the Startup Awards competition.</p>
             <img src="images/timeline/Cornell_NYC_Tech_logo.png">
             <span class="cd-date">May 10, 2016</span>
-        </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
+        </div>
+    </div>
+
     <!-- card 2 -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-movie">
-            <img src="images/timeline/cd-icon-location.svg" alt="Location">
-        </div> <!-- cd-timeline-img -->
+            <i class="material-icons md-light">location_city</i>
+        </div>
         <div class="cd-timeline-content">
             <h2>GitLinks joins forces with eBay</h2>
             <p>eBay believes in our product and invites us to work inside of their NYC office.
@@ -128,23 +118,22 @@
             </p>
             <img src="images/timeline/ebay7color1.png">
             <span class="cd-date">April 27, 2016</span>
-        </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
+        </div>
+    </div>
+
     <!-- card 1 -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture">
-            <!--<img src="images/timeline/cd-icon-picture.svg" alt="Picture">-->
-            <i class="material-icons md-light">face</i>
-        </div> <!-- cd-timeline-img -->
+            <i class="material-icons md-light">insert_emoticon</i>
+        </div>
         <div class="cd-timeline-content">
             <h2>First team meeting of the new year.</h2>
             <p></p>
             <img src="images/timeline/first_2016_meeting.jpg">
-            <!--<a href="#0" class="cd-read-more">Read more</a>-->
             <span class="cd-date">Jan 26, 2016</span>
-        </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
-  
+        </div>
+    </div>
+
     <!--<div class="cd-timeline-block">-->
     <!--<div class="cd-timeline-img cd-location">-->
     <!--<img src="img/cd-icon-location.svg" alt="Location">-->
@@ -184,7 +173,7 @@
     <!--<span class="cd-date">Feb 26</span>-->
     <!--</div> &lt;!&ndash; cd-timeline-content &ndash;&gt;-->
     <!--</div> &lt;!&ndash; cd-timeline-block &ndash;&gt;-->
-</section> <!-- cd-timeline -->
+</section>
 <hr>
 
 <footer id="footer" style="margin-top: 30px;">
@@ -230,7 +219,6 @@
 <script type="text/javascript" src="js/main2.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
 
-
 <!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -244,10 +232,8 @@
         a.src = g;
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
     ga('create', 'UA-76724546-1', 'auto');
     ga('send', 'pageview');
-
 </script>
 
 </body>
