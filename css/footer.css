@@ -15,16 +15,6 @@
     float: left
 }
 
-#maia-signature:after, [dir=rtl] #maia-signature:before {
-    /*border-left: 34px solid #0089fa;*/
-    border-right: 35px solid #ff002b
-}
-
-#maia-signature:before, [dir=rtl] #maia-signature:after {
-    border-left: 35px solid #ffa900;
-    border-right: 34px solid #00a753
-}
-
 #maia-footer {
     background: #f5f5f5;
     clear: both
