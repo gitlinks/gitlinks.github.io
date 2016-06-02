@@ -1030,6 +1030,18 @@ h3.top-zero {
         margin-top: 10%;
     }
 
+    #score-progressbar {
+        width: 75%;
+        height: 75%;
+        font-size: 30px;
+        margin: auto;
+    }
+
+    #score-progressbar > svg {
+        width: 100%;
+        display: inline-block;
+    }
+
     #footer {
         background: none;
     }
